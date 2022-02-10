@@ -19,13 +19,13 @@ class User
                 'id' => 2,
                 'name' => 'Rafiq',
                 'email' => 'rafiq@gmail.com',
-                'password' => '234567'
+                'password' => '121212'
             ],
             2 => [
                 'id' => 2,
                 'name' => 'Nuru',
                 'email' => 'nuru@gmail.com',
-                'password' => '3456789'
+                'password' => '222222'
             ],
         ];
     }

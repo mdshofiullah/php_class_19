@@ -1,10 +1,8 @@
 <?php
 
-
 namespace App\classes;
 use App\classes\User;
 use App\classes\Home;
-
 
 class Auth
 {

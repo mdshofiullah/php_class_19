@@ -9,6 +9,7 @@
                         Registration Form
                     </div>
                     <div class="card-body">
+                        <h3 class="text-center text-success mb-4"><?php echo isset($message) ? $message : ' '; ?></h3>
                         <form action="action.php" method="post">
 
                             <div class="form-group row">
@@ -29,18 +30,7 @@
                                     <input type="number" required class="form-control" name="phone_number" />
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label for="" class="col-md-3">Subject</label>
-                                <div class="col-md-9">
-                                    <label for=""><input type="checkbox" checked name="subject[]" value="Bangla"/> Bangla </label>
-                                    <label for=""><input type="checkbox" name="subject[]" value="English"/> English </label>
-                                    <label for=""><input type="checkbox" name="subject[]" value="Math"/> Math </label>
-                                    <label for=""><input type="checkbox" name="subject[]" value="Physics"/> Physics </label>
-                                    <label for=""><input type="checkbox" name="subject[]" value="Chemistry"/> Chemistry </label>
-                                    <label for=""><input type="checkbox" name="subject[]" value="Biology"/> Biology </label>
 
-                                </div>
-                            </div>
                             <div class="form-group row">
                                 <label for="" class="col-md-3"></label>
                                 <div class="col-md-9">
